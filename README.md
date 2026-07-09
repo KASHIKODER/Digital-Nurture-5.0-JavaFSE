@@ -1,6 +1,6 @@
 # Digital Nurture 5.0 - Java FSE (Angular)
 
-**Program:** Cognizant Digital Nurture 5.0 — Deep Skilling
+**Program:** Cognizant Digital Nurture 5.0 â€” Deep Skilling
 **Track:** Java FSE Angular (Role 5)
 **Assessment Date:** 30th July 2026
 **GitHub:** https://github.com/KASHIKODER/Digital-Nurture-5.0-JavaFSE
@@ -11,19 +11,19 @@
 
 | Week | Topic | Status |
 |------|-------|--------|
-| Week 1 | Design Patterns, DSA, PL/SQL, TDD, Mockito, SLF4J Logging | ? Complete |
-| Week 2 | Spring Core, Maven, Spring Data JPA, Hibernate | ? Complete |
-| Week 3 | Spring REST, Spring Boot 3, JWT | ? Complete |
-| Week 4 | Microservices, Spring Cloud, SonarQube | ?? In Progress |
-| Week 5 | Angular | ? Pending |
-| Week 6 | Angular, Git, CI/CD | ? Pending |
-| Week 7 | DevOps, Docker, Cloud, GenAI | ? Pending |
+| Week 1 | Design Patterns, DSA, PL/SQL, TDD, Mockito, SLF4J Logging |  Complete |
+| Week 2 | Spring Core, Maven, Spring Data JPA, Hibernate |  Complete |
+| Week 3 | Spring REST, Spring Boot 3, JWT |  Complete |
+| Week 4 | Microservices, Spring Cloud, SonarQube |  In Progress |
+| Week 5 | Angular |  Pending |
+| Week 6 | Angular, Git, CI/CD |  Pending |
+| Week 7 | DevOps, Docker, Cloud, GenAI |  Pending |
 
 ---
 
 ## Mandatory Hands-On Summary
 
-### ? Week 1 — Design Patterns, DSA, PL/SQL, TDD, Logging
+###  Week 1 â€” Design Patterns, DSA, PL/SQL, TDD, Logging
 
 | # | Exercise | Location |
 |---|---|---|
@@ -35,70 +35,70 @@
 | 6 | PL/SQL Stored Procedures | Week1/PLSQL/ |
 | 7 | JUnit Setup + Assertions + AAA Pattern | Week1/JUnitTesting/ |
 | 8 | Mockito Mocking + Verifying Interactions | Week1/MockitoTesting/ |
-| 9 | SLF4J Logging — Error + Warning Levels | Week1/SLF4JLogging/ |
+| 9 | SLF4J Logging â€” Error + Warning Levels | Week1/SLF4JLogging/ |
 
-### ? Week 2 — Spring Core, Maven, Spring Data JPA, Hibernate
+###  Week 2 â€” Spring Core, Maven, Spring Data JPA, Hibernate
 
 | # | Exercise | Location |
 |---|---|---|
 | 1 | Configuring a Basic Spring Application | Week_2/SpringCoreDemo/ |
 | 2 | Implementing Dependency Injection | Week_2/SpringCoreDemo/ |
 | 3 | Creating and Configuring a Maven Project | Week_2/SpringCoreDemo/ |
-| 4 | Spring Data JPA — Quick Example + CRUD | Week_2/SpringDataJPA/ |
+| 4 | Spring Data JPA â€” Quick Example + CRUD | Week_2/SpringDataJPA/ |
 
-### ? Week 3 — Spring REST using Spring Boot 3
+###  Week 3 â€” Spring REST using Spring Boot 3
 
 | # | Exercise | Location |
 |---|---|---|
 | 1 | Create Spring Web Project using Maven | Week_3/SpringRESTDemo/ |
 | 2 | Hello World RESTful Web Service | Week_3/SpringRESTDemo/ |
-| 3 | REST Country Web Service — GET all | Week_3/SpringRESTDemo/ |
-| 4 | REST — GET country by country code | Week_3/SpringRESTDemo/ |
+| 3 | REST Country Web Service â€” GET all | Week_3/SpringRESTDemo/ |
+| 4 | REST â€” GET country by country code | Week_3/SpringRESTDemo/ |
 | 5 | POST, PUT, DELETE endpoints | Week_3/SpringRESTDemo/ |
 | 6 | JWT Authentication Service | Week_4/JWTSecurity/ |
 
-### ?? Week 4 — Microservices, Spring Cloud, SonarQube
+###  Week 4 â€” Microservices, Spring Cloud, SonarQube
 
 | # | Exercise | Location | Status |
 |---|---|---|---|
-| 1 | JWT Authentication Service | Week_4/JWTSecurity/ | ?? In Progress |
-| 2 | Microservices — Account + Loan Service | Week_4/Microservices/ | ? Pending |
+| 1 | JWT Authentication Service | Week_4/JWTSecurity/ |  In Progress |
+| 2 | Microservices â€” Account + Loan Service | Week_4/Microservices/ |  Pending |
 
-### ? Week 5 — Angular
-### ? Week 6 — Angular + Git + CI/CD
-### ? Week 7 — DevOps + Docker + Cloud + GenAI
+###  Week 5 â€” Angular
+###  Week 6 â€” Angular + Git + CI/CD
+###  Week 7 â€” DevOps + Docker + Cloud + GenAI
 
 ---
 
-## ?? Repository Structure
+##  Repository Structure
 
 Digital-Nurture-5.0-JavaFSE/
 +-- Week1/
-¦   +-- SingletonPatternExample/
-¦   +-- FactoryMethodPatternExample/
-¦   +-- EcommerceSearch/
-¦   +-- FinancialForecasting/
-¦   +-- PLSQL/
-¦   +-- JUnitTesting/
-¦   +-- MockitoTesting/
-¦   +-- SLF4JLogging/
-¦   +-- README.md
+Â¦   +-- SingletonPatternExample/
+Â¦   +-- FactoryMethodPatternExample/
+Â¦   +-- EcommerceSearch/
+Â¦   +-- FinancialForecasting/
+Â¦   +-- PLSQL/
+Â¦   +-- JUnitTesting/
+Â¦   +-- MockitoTesting/
+Â¦   +-- SLF4JLogging/
+Â¦   +-- README.md
 +-- Week_2/
-¦   +-- SpringCoreDemo/
-¦   +-- SpringDataJPA/
-¦   +-- README.md
+Â¦   +-- SpringCoreDemo/
+Â¦   +-- SpringDataJPA/
+Â¦   +-- README.md
 +-- Week_3/
-¦   +-- SpringRESTDemo/
-¦   +-- README.md
+Â¦   +-- SpringRESTDemo/
+Â¦   +-- README.md
 +-- Week_4/
-¦   +-- JWTSecurity/
-¦   +-- Microservices/
-¦   +-- README.md
+Â¦   +-- JWTSecurity/
+Â¦   +-- Microservices/
+Â¦   +-- README.md
 +-- README.md
 
 ---
 
-## ??? Tech Stack
+##  Tech Stack
 
 | Category | Technology |
 |---|---|
@@ -117,7 +117,7 @@ Digital-Nurture-5.0-JavaFSE/
 
 ---
 
-## ?? Timeline
+##  Timeline
 
 | Date | Milestone |
 |---|---|
