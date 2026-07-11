@@ -20,34 +20,34 @@
 ## Folder Structure
 
 Week_4/
-??? JWTSecurity/
-?   ??? pom.xml
-?   ??? src/main/java/com/cognizant/
-?       ??? App.java
-?       ??? config/SecurityConfig.java
-?       ??? controller/AuthController.java
-?       ??? model/AuthRequest.java
-?       ??? model/AuthResponse.java
-?       ??? service/JwtService.java
-??? Microservices/
-    ??? account-service/
-    ?   ??? pom.xml
-    ?   ??? src/main/java/com/cognizant/account/
-    ?       ??? AccountServiceApp.java
-    ?       ??? controller/AccountController.java
-    ?       ??? model/Account.java
-    ??? loan-service/
-        ??? pom.xml
-        ??? src/main/java/com/cognizant/loan/
-            ??? LoanServiceApp.java
-            ??? controller/LoanController.java
-            ??? model/Loan.java
+ JWTSecurity/
+    pom.xml
+    src/main/java/com/cognizant/
+        App.java
+        config/SecurityConfig.java
+        controller/AuthController.java
+        model/AuthRequest.java
+        model/AuthResponse.java
+        service/JwtService.java
+ Microservices/
+     account-service/
+        pom.xml
+        src/main/java/com/cognizant/account/
+            AccountServiceApp.java
+            controller/AccountController.java
+            model/Account.java
+     loan-service/
+         pom.xml
+         src/main/java/com/cognizant/loan/
+             LoanServiceApp.java
+             controller/LoanController.java
+             model/Loan.java
 
 ---
 
 ## Module - JWT Authentication
 
-### What is JWT?
+### What is JWT
 
 JWT = JSON Web Token
 
@@ -69,17 +69,17 @@ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXlhc2gifQ.abc123
 
 ### JWT Flow
 
-Client ? POST /api/auth/login (username + password)
-         ?
+Client  POST /api/auth/login (username + password)
+         
 Server validates credentials
-         ?
+         
 Server generates JWT token
-         ?
+         
 Client receives token
-         ?
+         
 Client sends token in every request header
-         ?
-Server validates token ? allow/deny
+         
+Server validates token  allow/deny
 
 ### Key Annotations Used
 
@@ -93,8 +93,8 @@ Server validates token ? allow/deny
 
 | Method | URL | Description |
 |---|---|---|
-| POST | /api/auth/login | Username+password ? JWT token |
-| GET | /api/auth/validate?token=xxx | Token validate karo |
+| POST | /api/auth/login | Username+password  JWT token |
+| GET | /api/auth/validatetoken=xxx | Token validate karo |
 | GET | /api/auth/hello | Health check |
 
 ### Test Credentials
@@ -106,7 +106,7 @@ Password: password123
 
 ## Module - Microservices Architecture
 
-### What are Microservices?
+### What are Microservices
 
 Application ko chote independent services mein todo - har service ek specific business function kare.
 
@@ -175,7 +175,7 @@ Endpoints:
 
 ## Module - SonarQube and Code Quality
 
-### What is SonarQube?
+### What is SonarQube
 
 Static code analysis tool - bina code run kiye bugs, vulnerabilities, code smells detect karta hai.
 
@@ -213,21 +213,21 @@ mvn clean verify sonar:sonar
 ## MCQ Quick Revision
 
 **JWT:**
-Q: JWT ka full form? ? JSON Web Token
-Q: JWT ke 3 parts? ? Header.Payload.Signature
-Q: JWT stateless kyu? ? Server session store nahi karta
-Q: Signing algorithm? ? HMACSHA256
+Q: JWT ka full form  JSON Web Token
+Q: JWT ke 3 parts  Header.Payload.Signature
+Q: JWT stateless kyu  Server session store nahi karta
+Q: Signing algorithm  HMACSHA256
 
 **Microservices:**
-Q: Database per service kyu? ? Loose coupling + autonomy
-Q: API Gateway kya karta hai? ? Routing + Auth + Rate limiting
-Q: Circuit Breaker kab use? ? Failing service bypass karne ke liye
-Q: Eureka kya hai? ? Service Discovery + Registration
+Q: Database per service kyu  Loose coupling + autonomy
+Q: API Gateway kya karta hai  Routing + Auth + Rate limiting
+Q: Circuit Breaker kab use  Failing service bypass karne ke liye
+Q: Eureka kya hai  Service Discovery + Registration
 
 **SonarQube:**
-Q: Static vs Runtime analysis? ? SonarQube = Static
-Q: Quality Gate kya hai? ? Deployment blocker if quality fails
-Q: Maven command? ? mvn clean verify sonar:sonar
+Q: Static vs Runtime analysis  SonarQube = Static
+Q: Quality Gate kya hai  Deployment blocker if quality fails
+Q: Maven command  mvn clean verify sonar:sonar
 
 ---
 
