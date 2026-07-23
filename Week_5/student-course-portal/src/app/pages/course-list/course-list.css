@@ -1,0 +1,14 @@
+.course-list { padding: 2rem; max-width: 900px; margin: 0 auto; }
+h2 { color: #1D9E75; margin-bottom: 1.5rem; }
+.filters { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+.filters input, .filters select { padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; }
+.filters input { flex: 1; }
+.courses-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+.course-card { background: white; border: 1px solid #eee; border-radius: 8px; padding: 1.25rem; }
+.course-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem; }
+h3 { font-size: 15px; margin: 0; }
+.badge { font-size: 11px; padding: 3px 8px; border-radius: 4px; background: #f0f0f0; color: #666; }
+.badge.enrolled { background: #E1F5EE; color: #0F6E56; }
+.course-card p { font-size: 13px; color: #666; margin: 4px 0; }
+.btn-enroll { margin-top: 0.75rem; padding: 7px 16px; background: #1D9E75; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; }
+.enrolled-text { font-size: 13px; color: #1D9E75; margin-top: 0.75rem; display: block; }

@@ -1,0 +1,4 @@
+nav { display: flex; justify-content: space-between; align-items: center; background: #1D9E75; padding: 1rem 2rem; color: white; }
+.nav-brand { font-size: 20px; font-weight: 500; }
+.nav-links a { color: white; text-decoration: none; margin-left: 1.5rem; font-size: 15px; }
+.nav-links a.active { border-bottom: 2px solid white; }

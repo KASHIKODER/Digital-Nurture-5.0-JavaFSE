@@ -1,0 +1,13 @@
+<div class="home">
+  <h1>Welcome, {{ student?.name }}!</h1>
+  <p>Your learning dashboard for {{ portalName }}</p>
+  <div class="stats">
+    <div class="stat-card"><span class="stat-value">{{ totalCourses }}</span><span class="stat-label">Courses Available</span></div>
+    <div class="stat-card"><span class="stat-value">{{ enrolledCount }}</span><span class="stat-label">Enrolled</span></div>
+    <div class="stat-card"><span class="stat-value">{{ student?.gpa }}</span><span class="stat-label">GPA</span></div>
+  </div>
+  <div class="actions">
+    <a routerLink="/courses" class="btn">Browse Courses</a>
+    <a routerLink="/profile" class="btn btn-outline">My Profile</a>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="profile">
+  <h2>Student Profile</h2>
+  <div class="profile-card">
+    <div class="avatar">{{ student?.name?.charAt(0) }}</div>
+    <div class="profile-info">
+      <div *ngIf="!isEditing"><h3>{{ student?.name }}</h3><p>{{ student?.email }}</p><p>{{ student?.department }}</p><p>GPA: <strong>{{ student?.gpa }}</strong></p><button (click)="toggleEdit()" class="btn-edit">Edit Profile</button></div>
+      <div *ngIf="isEditing"><input [(ngModel)]="editName" placeholder="Enter name" class="edit-input"/><button (click)="saveProfile()" class="btn-save">Save</button><button (click)="toggleEdit()" class="btn-cancel">Cancel</button></div>
+    </div>
+  </div>
+  <h3>Enrolled Courses</h3>
+  <div class="enrolled-list"><div class="enrolled-item" *ngFor="let course of enrolledCourses"><span>{{ course.title }}</span><span class="credits">{{ course.credits }} credits</span></div><p *ngIf="enrolledCourses.length === 0">No courses enrolled yet.</p></div>
+</div>

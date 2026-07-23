@@ -1,0 +1,12 @@
+.profile { padding: 2rem; max-width: 700px; margin: 0 auto; }
+h2, h3 { color: #1D9E75; margin-bottom: 1rem; }
+.profile-card { display: flex; gap: 1.5rem; background: white; border: 1px solid #eee; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; align-items: flex-start; }
+.avatar { width: 64px; height: 64px; border-radius: 50%; background: #1D9E75; color: white; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 500; flex-shrink: 0; }
+.profile-info h3 { margin: 0 0 4px; font-size: 20px; }
+.profile-info p { color: #666; font-size: 14px; margin: 4px 0; }
+.btn-edit, .btn-save { margin-top: 0.75rem; padding: 7px 16px; background: #1D9E75; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 13px; margin-right: 8px; }
+.btn-cancel { margin-top: 0.75rem; padding: 7px 16px; background: white; color: #666; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; font-size: 13px; }
+.edit-input { padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; width: 100%; margin-bottom: 8px; }
+.enrolled-list { display: flex; flex-direction: column; gap: 8px; }
+.enrolled-item { display: flex; justify-content: space-between; padding: 10px 16px; background: #f9f9f9; border-radius: 6px; font-size: 14px; }
+.credits { color: #1D9E75; font-weight: 500; }

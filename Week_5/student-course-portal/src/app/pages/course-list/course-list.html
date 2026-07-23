@@ -1,0 +1,19 @@
+<div class="course-list">
+  <h2>Available Courses</h2>
+  <div class="filters">
+    <input type="text" placeholder="Search courses..." [(ngModel)]="searchTerm" (input)="filterCourses()" />
+    <select [(ngModel)]="selectedCategory" (change)="filterCourses()">
+      <option *ngFor="let cat of categories" [value]="cat">{{ cat }}</option>
+    </select>
+  </div>
+  <div class="courses-grid">
+    <div class="course-card" *ngFor="let course of filteredCourses">
+      <div class="course-header"><h3>{{ course.title }}</h3><span class="badge" [class.enrolled]="course.enrolled">{{ course.enrolled ? 'Enrolled' : course.category }}</span></div>
+      <p>Instructor: {{ course.instructor }}</p>
+      <p>Credits: {{ course.credits }}</p>
+      <button *ngIf="!course.enrolled" (click)="enroll(course.id)" class="btn-enroll">Enroll Now</button>
+      <span *ngIf="course.enrolled" class="enrolled-text">Already Enrolled</span>
+    </div>
+  </div>
+  <p *ngIf="filteredCourses.length === 0" class="no-results">No courses found.</p>
+</div>
